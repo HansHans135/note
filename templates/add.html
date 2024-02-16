@@ -1,0 +1,54 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--stylesheet-->
+    <link rel="stylesheet" href="../static/css/style.css">
+
+    <!--bootstrap-->
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+
+    <!--fontawesome-->
+    <link rel="stylesheet" href="../static/css/fontawesome.css">
+
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Dosis:wght@200&family=Handlee&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap" rel="stylesheet">
+
+    <!--Meta Data-->
+    <title>添加代辦</title>
+
+    <!-- Favicons 
+    <link href="assets/img/Harindulk.jpg" rel="icon">
+    <link href="assets/img/Harindulk.jpg" rel="apple-touch-icon">-->
+
+</head>
+
+<body class="bg">
+    <!-- Profile name-->
+    <div class="profile-name"><b>添加代辦</div>
+    <form action="" method="post">
+        <div class="profile-name"><b>內容</div>
+        <input type="text" name="text" id="text" class="links , hover" required />
+        <div class="profile-name"><b>截止日期</div>
+        <input type="date" name="date" id="date" class="links , hover" required />
+        <div class="profile-name"><b>類型</div>
+        <select name="tp" id="tp" class="links , hover" required>
+            <option value="">請選擇</option>
+            <option value="home_work">作業</option>
+            <option value="back">回條</option>
+            <option value="test">考試</option>
+        </select>
+        <div class="profile-name"><b>地點</div>
+            <select name="cl" id="cl" class="links , hover" required>
+                <option value="">請選擇</option>
+                <option value="ykvs">作業</option>
+                <option value="tck">建功</option>
+            </select>
+        <br>
+        <input type="submit" class="links , hover" value="添加" />
+
+    </form>
+    <a class="links , hover" href="/">返回</a>
+</body>
